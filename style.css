@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jacques+Francois+Shadow&family=Love+Ya+Like+A+Sister&family=Luckiest+Guy&display=swap');
+body{
+     /*background-image: url("./image/baclgroundimage.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: visible;
+     object-fit: cover;  
+     width: auto;*/
+     background-color: #E6CCB2;
+     margin: 0px;
+     padding: 0px;
+     width: 99%;
+}
+.header1{
+     color: #63422C;
+     text-align: center;
+     font-family: "Luckiest Guy", cursive;
+     margin-top: 150px;
+     height: 100px;
+     letter-spacing: 10px;
+     font-size: 80px;
+}
+.header2{
+     color: #63422C;
+     text-align: center;
+     height: 50px;
+     padding: 30px;
+     font-size: 35px;
+     font-family: Caveat;
+}
+.header3{
+     color:#63422C;
+     font-size: 70px;
+     font-family:"Jacques Francois Shadow", serif;
+     text-align: left;
+     height: 300px;
+     padding-left: 10%;
+     line-height: 0.05em;
+}
+.text3{
+     font-family: "Love Ya Like A Sister", cursive;
+     letter-spacing: 5px;
+}
+.topHeader{
+     height: 100px;
+}
+.header4{
+     color:#63422C;
+     font-size: 70px;
+     font-family: "Jacques Francois Shadow", serif;
+     text-align: right;
+     height: 90px;
+     padding-left: 10%;
+     line-height: 0.05em;
+}
+
+nav{
+     display: inline;
+     height: 80px;
+     font-size: 30px;
+     font-family: Caveat;
+}       
+nav a {
+     margin-right: 5vw;
+     color: white;
+     text-decoration: none;
+}     
+nav a:hover{
+     text-decoration: underline;
+     background-color: #B08968;
+     color: #2B1D12;
+}
+.navDiv {
+     position: fixed;
+     right: 5vw;
+     top: 0;
+     z-index: 2;
+     
+     height: 100px;
+}
+nav li{
+     display: inline-block;
+     padding: 13px 15px;
+     right: 5vw;
+     top: 0;
+}  
+/* nav ul{
+     position: fixed;
+     right: 5vw;
+     top: 0;
+     z-index: 2;
+} */
+.about{
+     margin: 10px 20px;
+     background-color: #E4D8C9;  
+     height: 830px; 
+     border-radius: 40px;
+}
+.myselfpic {
+     float: left;
+     width:50%;    
+}
+.pic1 img{
+     padding-left: 160px;
+     padding-top: 5%;
+     border-radius: 50%;
+}
+.pic2{
+     display: flex;
+     align-items: center;
+     justify-content:space-evenly;
+     padding:5% 30% 0% 30% ;
+}
+.basicinformation{
+     float: right;
+     width: 50%;
+     text-align: left;
+     font-size: 30px;
+     font-family: 標楷體;
+}
+.clearfix{
+     clear: both;
+}
+.slogan{
+     font-size: 40px;
+     font-family: 標楷體;
+     font-weight: bold;
+     letter-spacing: 0.5cm;
+     /*border: 2px solid black;
+     border-radius: 5px;*/
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.skills{
+     margin: 20px 30px;
+     background-color: #E4D8C9;  
+     height: 1350px; 
+     border-width: 2px 3px 2px 5px;
+     border-radius: 95% 6% 93% 5% / 5% 94% 7% 95%;
+     /* 做出傾斜的視覺感 */
+     transform: rotate(2deg);
+     border: inset #344E41 5px;
+     /* 將傾斜的部分修正 */
+     transform: rotate(2deg);
+}
+.program{
+     margin-top: 3%;
+     transform:rotate(-2deg);
+     float: left;
+     width: 50%;
+     font-family: 標楷體;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     accent-color:#C1666B ;
+     font-size: 30px;
+     line-height: 1.5em;
+}
+.text1{
+     float: left;
+     display: table-cell;
+     vertical-align: center;
+     padding-right: 50px;
+}
+.program progress{
+     float: right;
+}
+.program h2{
+     text-align: center;
+     font-size: 35px;
+}
+.software{
+     margin-top: 1.5%;
+     transform:rotate(-2deg);
+     float: right;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 標楷體;
+     accent-color:cornflowerblue;
+     font-size: 30px;
+     line-height: 1.5em;
+}
+.text2{
+     float: left;
+     display: table-cell;
+     vertical-align: center;
+     font-family: 標楷體;
+     padding-right: 50px;
+}
+.software progress{
+     float: right;
+     padding-right: 120px;
+}
+.software h2{
+     text-align:center;
+     font-size: 35px;
+}
+.result{
+     transform:rotate(-2deg);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-family: 標楷體;
+     padding: 35px 100px 80px;
+}
+.result div{
+     text-align: center;
+}
+.result h3{
+     font-size: 25px;
+     margin: 20px 0;
+}
+.result p{
+     font-size: 20px;
+}
+
+.experiences{
+     margin: 20px 30px;
+     background-color: #E4D8C9;  
+     height: 1750px; 
+     border-width: 2px 3px 2px 5px;
+     border-radius: 95% 6% 90% 10% / 7% 95% 9% 92%;
+     /* 做出傾斜的視覺感 */
+     transform: rotate(2deg);
+     border: outset #C1666B 5px;
+     /* 將傾斜的部分修正 */
+     transform: rotate(2deg);
+}
+.school{
+     transform:rotate(-2deg);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 標楷體;
+     font-size: 25px;
+}
+.schools{
+     margin-top: 2%;
+     float: left;
+     width: 50%;
+     margin-left: 10%;
+}
+.schools h3{
+     font-size: 35px;
+     text-align:center;
+}
+.school p{
+     text-align: center;
+}
+.competition{
+     margin-bottom: 1.5%;
+     float: right;
+     width: 50%;
+     margin-right: 15%;
+}
+.competition h3{
+     text-align: center;
+     font-size: 35px;
+}
+.competition p{
+     text-align: center;
+}
+.result2{
+     transform:rotate(-2deg);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-family: 標楷體;
+     padding: 80px 100px 80px 100px;
+}
+.result2 div{
+     text-align: center;
+}
+.result2 h3{
+     font-size: 25px;
+     margin: 20px 0;
+}
+.result2 p{
+     font-size: 20px;
+}
+.result2 img{
+     border-radius: 10px;
+}
+
+.result3{
+     transform:rotate(-2deg);
+     display: flex;
+     justify-content:space-evenly;
+     align-items: center;
+     font-family: 標楷體;
+     padding: 0px 80px 80px 100px;
+}
+.result3 div{
+     text-align: center;
+}
+.result3 h3{
+     font-size: 25px;
+     margin: 25px 0;
+}
+.result3 p{
+     font-size: 20px;
+}
+.other{
+     margin: 10px 10px 20px 10px;
+     background-color: #E4D8C9;  
+     height: 450px; 
+     border-radius: 50px;
+}
+.video{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-family: 標楷體;
+}
+.video div{
+     padding: 80px 25px 10px 25px;
+}
+.video p{
+     font-size: 20px;
+     text-align: center;
+}
+
+footer{
+     margin-top: 3%;
+     text-align: center;
+     color: lightgray;
+     background-color: #513722;
+     font-size: 14px;
+     display: flex;
+     justify-content: center;
+     height: 60px;
+     font-family: Caveat;
+}
